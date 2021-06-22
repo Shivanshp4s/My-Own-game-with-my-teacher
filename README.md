@@ -1,1 +1,2 @@
-# My-Own-game-with-my-teacher
+# p5.play-boilerplate
+Boiler plate for p5.play
