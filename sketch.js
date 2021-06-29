@@ -28,8 +28,13 @@ page.display();
 function draw() {
 background("blue");
 image(finalbackground_img,0,0,displayWidth*3,displayHeight);
+  
 
+  
   drawSprites();
+   camera.position.x = shooter.x;  
+ camera.position.y = shooter.y;
+  
   if(keyCode === 39){
 
     shooter.velocity = 3 ; 
